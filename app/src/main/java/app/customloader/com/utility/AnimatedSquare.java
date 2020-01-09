@@ -174,6 +174,11 @@ public class AnimatedSquare extends View {
             highPoint = 0;
             lowPoint = 0;
         }
+        else {
+
+            highPoint = (int) (w * 0.9);
+            lowPoint = w - highPoint;
+        }
         f_line11_x1 = highPoint;
         f_line11_y1 = lowPoint;
         f_line11_x2 = highPoint;
