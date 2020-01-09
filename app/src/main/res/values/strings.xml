@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CustomLoader</string>
+    <string name="showLoader">Show Loader</string>
+    <string name="hideLoader">Hide Loader</string>
 </resources>
