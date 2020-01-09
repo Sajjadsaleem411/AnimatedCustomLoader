@@ -5,12 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".ui.MainActivity">
 
     <app.customloader.com.utility.AnimatedSquare
         android:id="@+id/animatedSquare"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,6 +24,9 @@
         android:layout_height="wrap_content"
         android:text="@string/showLoader"
         android:textAllCaps="false"
+        android:layout_margin="15dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         />
 
