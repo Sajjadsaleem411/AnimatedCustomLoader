@@ -8,6 +8,8 @@ Custom square Animated loader draw on Canvas.
 
 ## Usage
 
+You need to add [AnimatedSquare](https://github.com/Sajjadsaleem411/SquareAnimatedLoader/blob/master/app/src/main/java/app/customloader/com/utility/AnimatedSquare.java) file in your project.
+
 **XML**
 ```
  <app.customloader.com.utility.AnimatedSquare
@@ -16,7 +18,6 @@ Custom square Animated loader draw on Canvas.
     android:layout_height="100dp" />
 ```
 
-You need to add [AnimatedSquare](https://github.com/Sajjadsaleem411/SquareAnimatedLoader/blob/master/app/src/main/java/app/customloader/com/utility/AnimatedSquare.java) file in your project.
 
 **Kotlin**
 ```
